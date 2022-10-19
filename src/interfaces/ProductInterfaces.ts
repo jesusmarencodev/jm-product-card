@@ -5,8 +5,8 @@ import { Props as ProductTitleProps } from "../components/ProductTitle";
 
 export interface Product {
   id: string;
-  img?: string;
   title: string;
+  img?: string;
 }
   
 export interface ProductContextProps {
